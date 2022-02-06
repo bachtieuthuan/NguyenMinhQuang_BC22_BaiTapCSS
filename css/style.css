@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    display: inline-block;
+    width: 100%;
+}
+
+.documents .item {color: #2e2f3e;}
+
+.year {
+    padding: 10px;
+    background: #002146;
+    color: #fff;
+}
+
+.dayMonth p {
+    font-size: 18px;
+}
+
+.dayMonth h3 {
+    font-size: 30px;
+}
+
+.dayMonth {
+    background: #fdc800;
+    color: #000;
+    padding: 15px;
+}
+
+.events {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.events a {
+    display: inline-block;
+}
+
+.services {
+    padding: 100px 150px;
+    display: inline-block;
+    width: 100%;
+}
+
+.small__content {
+    line-height: 27px;
+    float: left;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.small__title {
+    font-size: 60px;
+    float: left;
+    line-height: 55px;
+}
+
+.welcome__content {
+    padding: 0 30px 0 0;
+}
+
+.documents {
+    padding: 100px 150px;
+    background: #f6f6f6;
+    display: inline-block;
+    width: 100%;
+}
+
+.documents .col {
+    float: left;
+    width: 25%;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button.rdmore {
+    border: none;
+    border-radius: 3px;
+    background: #fdc800;
+    color: #092744;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.welcome__desc__1,
+.welcome__desc__2
+ {
+    color: #868686;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+h3.welcome__title {
+    font-size: 35px;
+    color: #1b1d2d;
+    margin-bottom: 15px;
+}
+
+.header__content{
+    padding: 20px 150px;
+}
+.header__logo{
+    margin-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #1b1d2d;
+}
+.header__logo i{
+    background-color: #002146;
+    color: #e0b50a;
+    border-radius: 50%;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+.header__logo span{
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 10px;
+    float: left;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+    margin: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.carousel{
+    background-image: url(../images/2.jpg);
+    width: 100%;
+    height: 800px;
+}
+.welcome{
+    padding: 50px 150px;
+    display: inline-block;
+}
+.welcome .col{
+    float: left;
+    width: 50%;
+}
+.services .row .col{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+}
+.services .row .col .item{
+    background-color: #002146;
+    color: #fff;
+    padding: 30px;
+    border-radius: 3px;
+}
+.services .row .col .item i{
+    font-size: 50px;
+}
+.services .row .col .item p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+
+.active {
+    background-color: #f6f6f6;
+    display: inline-block;
+    width: 100%;
+    padding: 100px 150px;
+}
+.active .row .col{
+    float: left;
+    width: 50%;
+    padding: 25px;
+}
+.active .row .col .item h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.active .row .col .item .latest__post{
+    background-color: #fff;
+    padding: 25px;
+}
+.active .row .col .item .latest__post a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+.active .row .col .item .latest__post .post__thumbnail,
+.active .row .col .item .latest__post .post__content{
+    float: left;
+}
+.active .row .col .item .latest__post .post__thumbnail{
+    width: 25%;
+}
+.active .row .col .item .latest__post .post__thumbnail img{
+    border-radius: 5px;
+}
+.active .row .col .item .latest__post .post__content{
+    padding-left: 15px;
+    width: 75%;
+}
+.active .row .col .item .latest__post .post__content h2{
+    font-size: 20px;
+    color: #292b3a;
+}
+.active .row .col .item .latest__post .post__content p{
+    font-size: 18px;
+}
+.active .row .col .item .latest__post .post__content p.date{
+    font-size: 18px;
+    color: #aeaeae;
+    margin: 10px 0 10px 0;
+}
+.crossbar{
+    width: 100%;
+    height: 1px;
+    background-color: #e5d7d7;
+    margin: 20px 0 20px 0;
+}
+.active .active__submit{
+    text-align: right;
+    margin-top: 15px;
+}
+.active .active__submit button{
+    padding:  15px 30px;
+    background-color: #fdc800;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.active .item .events .events__date,
+.active .item .events .events__contents{
+    float: left;
+}
+.active .item .events .events__date{
+    width: 15%;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.active .item .events .events__contents{
+    width: 85%;
+    padding-left: 15px;
+}
+.active .item .events .events__contents h2{
+    color: #353745;
+    margin-bottom: 10px;
+}
+.active .item .events .events__contents p{
+    color: #7b7b7b;
+    margin-bottom: 10px;
+}
+.active .item .events .events__contents p.time{
+    color: #455c78;
+    font-weight: 600;
+    margin: 0;
+}
+.active .item .events .events__contents p.time span{
+    margin: 0 10px 0 10px;
+}
+.footer__area{
+    background-color: #002146;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    padding: 50px 150px;
+}
+.footer__area .row .col{
+    float: left;
+    width: 33%;
+    padding: 20px;
+}
+.contact h1,
+.featurelink h1,
+.quicklink h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.contact i {
+    color: #e0b50a;
+    margin-right: 10px;
+}
+.contact p{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.contact a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.featurelink ul,
+.quicklink ul{
+    list-style: none;
+}
+.featurelink ul li,
+.quicklink ul li{
+    margin-bottom: 10px;
+}
+
+.featurelink ul li a,
+.quicklink ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.crossbarfooter{
+    width: 100%;
+    height: 1px;
+    background-color: #494848;
+    margin: 20px 0 20px 0;
+}
